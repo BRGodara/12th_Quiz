@@ -1,0 +1,223 @@
+#Quiz{
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+#Question{
+	position: fixed;
+	top: 25px;
+	left: 25px;
+	margin: 0;
+	padding: 0;
+	height: 150px;
+	width: 925px;
+	background: #FDFF80;
+	border: 2px solid black;
+	border-radius: 25px;
+	color: #565656;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 25px;
+	box-sizing: border-box;
+	overflow: auto;
+}
+#Oa{
+	position: fixed;
+	top: 200px;
+	left: 25px;
+	margin: 0;
+	padding: 0;
+	height: 100px;
+	width: 925px;
+	background: #00FFDA;
+	border: 2px solid black;
+	border-radius: 25px;
+	color: #565656;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 7px;
+	box-sizing: border-box;
+	overflow: auto;
+}
+#Ob{
+	position: fixed;
+	top: 325px;
+	left: 25px;
+	margin: 0;
+	padding: 0;
+	height: 100px;
+	width: 925px;
+	background: #00FFDA;
+	border: 2px solid black;
+	border-radius: 25px;
+	color: #565656;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 7px;
+	box-sizing: border-box;
+	overflow: auto;
+}
+#Oc{
+	position: fixed;
+	top: 450px;
+	left: 25px;
+	margin: 0;
+	padding: 0;
+	height: 100px;
+	width: 925px;
+	background: #00FFDA;
+	border: 2px solid black;
+	border-radius: 25px;
+	color: #565656;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 7px;
+	box-sizing: border-box;
+	overflow: auto;
+}
+#Od{
+	position: fixed;
+	top: 575px;
+	left: 25px;
+	margin: 0;
+	padding: 0;
+	height: 100px;
+	width: 925px;
+	background: #00FFDA;
+	border: 2px solid black;
+	border-radius: 25px;
+	color: #565656;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 7px;
+	box-sizing: border-box;
+	overflow: auto;
+}
+#option p:hover{
+	background: #005A4D;
+	color: #B3B3B3;
+}
+#Previous{
+	background-image: url("Previous.png");
+	background-size: 300px 300px;
+	background-reapet: no-reapet;
+	height: 300px;
+	width: 300px;
+	position: fixed;
+	bottom: 100px;
+	left: 30px;
+}
+#Previous:hover{
+	background-size: 290px 290px;
+	height: 290px;
+	width: 290px;
+	position: fixed;
+	bottom: 105px;
+	left: 35px;
+}
+#Next{
+	background-image: url("Next.png");
+	background-size: 300px 300px;
+	background-reapet: no-reapet;
+	height: 300px;
+	width: 300px;
+	position: fixed;
+	bottom: 100px;
+	right: 30px;
+}
+#Next:hover{
+	background-size: 290px 290px;
+	height: 290px;
+	width: 290px;
+	position: fixed;
+	bottom: 105px;
+	right: 35px;
+}
+#Hint{
+	background-image: url("Hint.png");
+	background-size: 300px 300px;
+	background-reapet: no-reapet;
+	height: 300px;
+	width: 300px;
+	position: fixed;
+	bottom: 100px;
+	left: 330px;
+}
+#Hint:hover{
+	background-size: 290px 290px;
+	height: 290px;
+	width: 290px;
+	position: fixed;
+	bottom: 105px;
+	right: 335px;
+}
+#Credits{
+	height: 90px;
+	width: 990px;
+	position: fixed;
+	bottom: -1px;
+	left: -1px;
+	background: #4FA8FF;
+	font-size: 50px;
+	text-align: center;
+	box-sizing: border-box;
+	border-top: 2px solid black;
+	padding-top: 15px;
+	color: gray;
+}
+#Correct{
+	background-image: url("Correct.png");
+	background-size: 800px 400px;
+	background-reapet: no-reapet;
+	height: 300px;
+	width: 800px;
+	position: fixed;
+	bottom: 475px;
+	left: 100px;
+	display: none;
+}
+#Incorrect{
+	background-image: url("Incorrect.png");
+	background-size: 800px 400px;
+	background-reapet: no-reapet;
+	height: 300px;
+	width: 800px;
+	position: fixed;
+	bottom: 475px;
+	left: 100px;
+	display: none;
+}
+#CheckResult{
+	height: 200px;
+	width: 800px;
+	position: fixed;
+	bottom: 150px;
+	left: 100px;
+	background: #00FF00;
+	color: #007900;
+	border: 5px solid black;
+	border-radius: 75px;
+	font-size: 110px;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	display: none;
+}
+#CheckResult:hover{
+	background: #007900;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+

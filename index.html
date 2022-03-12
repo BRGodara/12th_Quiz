@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>RBSE 12th Quiz 2022 by Bishnaram Godara</title>
+			<link rel="stylesheet" type="text/css" href="Style_Home.css">
+			<link rel="stylesheet" type="text/css" href="Style_Quiz.css">
+			<link rel="stylesheet" type="text/css" href="Questions.css">
+		</head>
+		<body>
+			<div id="Main">
+				<div id="Home">
+					<div id="Header"> </div>
+					<div id="Game_Logo"> </div>
+					<div id="Start" onclick="Start()"> </div>
+					<div id="Name" contentEditable="true" onclick="ClearData()">Please enter your name here!</div>
+					<div id="Creator_Logo"> </div>
+				</div>
+				<div id="Quiz">
+					<div id="Question">
+						Please click next button!!!
+					</div>
+					<div id="option">
+						<p id="Oa" onclick="CheckR(1)">option A</p>
+						<p id="Ob" onclick="CheckR(2)">option B</p>
+						<p id="Oc" onclick="CheckR(3)">option C</p>
+						<p id="Od" onclick="CheckR(4)">option D</p>
+					</div>
+					<div id="Result">
+						<div id="Correct"></div>
+						<div id="Incorrect"></div>
+					</div>
+					<div id="Buttons">
+						<div id="Previous" Onclick="Previous()"></div>
+						<div id="Next" Onclick="Next()"></div>
+						<div id="Hint" Onclick="Hint()"></div>
+						<div id="CheckResult" onclick="CheckResult()">Check Result</div>
+					</div>
+					<div id="Credits">
+						Created by Bishnaram Godara
+					<div>
+				</div>
+			</div>
+			<div id="Questions">
+				<div>
+					<p id="Que1">सिन्धु सभ्यता का स्थल धौलावीरा निम्न में से किस राज्य में हैं?</p>
+					<p id="Que1_Oa">राजस्थान</p>
+					<p id="Que1_Ob">गुजरात</p>
+					<p id="Que1_Oc">महाराष्ट्र</p>
+					<p id="Que1_Od">उत्तराखंड</p>
+					<p id="Que1_Ans">2</p>
+				</div>
+				<div>
+					<p id="Que2">भारतीय पुरातत्व सर्वेक्षण के पहले जनरल डायरेक्टर कौन थे?</p>
+					<p id="Que2_Oa">आर ई एम व्हीलर</p>
+					<p id="Que2_Ob">एस आर राव</p>
+					<p id="Que2_Oc">कनिंघम</p>
+					<p id="Que2_Od">बी बी लाल</p>
+					<p id="Que2_Ans">3</p>
+				</div>
+				<div>
+					<p id="Que3">हरिषेण निम्न में से किसके राजकवि थे?</p>
+					<p id="Que3_Oa">चन्द्रगुप्त 1</p>
+					<p id="Que3_Ob">चन्द्रगुप्त 2</p>
+					<p id="Que3_Oc">चन्द्रगुप्त मौर्य</p>
+					<p id="Que3_Od">समुद्र गुप्त</p>
+					<p id="Que3_Ans">4</p>
+				</div>
+				<div>
+					<p id="Que4">'हर्ष चरित' के लेखक हैं?</p>
+					<p id="Que4_Oa">हर्षवर्धन</p>
+					<p id="Que4_Ob">बाणभह</p>
+					<p id="Que4_Oc">कौटिल्य</p>
+					<p id="Que4_Od">मयूर</p>
+					<p id="Que4_Ans">2</p>
+				</div>
+				<div>
+					<p id="Que5">प्रसिद्ध यात्री ज्यौं-बैस्टिस्ट तैवर्नियर कहां का निवासी था?</p>
+					<p id="Que5_Oa">इटली</p>
+					<p id="Que5_Ob">फ्रांस</p>
+					<p id="Que5_Oc">मोरक्को</p>
+					<p id="Que5_Od">उज़्बेकिस्तान</p>
+					<p id="Que5_Ans">2</p>
+				</div>
+				<div>
+					<p id="Que6">शेख़ फरीदुद्दीन गंज-ए-शकर की दरगाह निम्न में से कहां स्थित हैं?</p>
+					<p id="Que6_Oa">अजमेर</p>
+					<p id="Que6_Ob">दिल्ली</p>
+					<p id="Que6_Oc">फतेहपुर सीकरी</p>
+					<p id="Que6_Od">अजोधन</p>
+					<p id="Que6_Ans">4</p>
+				</div>
+				<div>
+					<p id="Que7">विजयनगर साम्राज्य की स्थापना किस वर्ष की गई?</p>
+					<p id="Que7_Oa">1236</p>
+					<p id="Que7_Ob">1336</p>
+					<p id="Que7_Oc">1256</p>
+					<p id="Que7_Od">1356</p>
+					<p id="Que7_Ans">2</p>
+				</div>
+				<div>
+					<p id="Que8">सहायक सन्धि व्यवस्था किसने आरम्भ की थी?</p>
+					<p id="Que8_Oa">लार्ड वेलेजली</p>
+					<p id="Que8_Ob">लार्ड डलहौजी</p>
+					<p id="Que8_Oc">लार्ड कैनिंग</p>
+					<p id="Que8_Od">लार्ड क्लाइव</p>
+					<p id="Que8_Ans">1</p>
+				</div>
+				<div>
+					<p id="Que9">1953 का वर्ष मुख्य रूप से किसके लिए जाना जाता हैं?</p>
+					<p id="Que9_Oa">सती प्रथा पर रोक</p>
+					<p id="Que9_Ob">रेलवे की शुरुआत</p>
+					<p id="Que9_Oc">राजधानी परिवर्तन</p>
+					<p id="Que9_Od">गटवे ऑफ इण्डिया का निर्माण</p>
+					<p id="Que9_Ans">2</p>
+				</div>
+				<div>
+					<p id="Que10">ईस्ट इंडिया कंपनी ने बंगाल में इस्तमरारी बंदोबस्त कब लागू किया?</p>
+					<p id="Que10_Oa">1693</p>
+					<p id="Que10_Ob">1793</p>
+					<p id="Que10_Oc">1893</p>
+					<p id="Que10_Od">1993</p>
+					<p id="Que10_Ans">2</p>
+				</div>
+			</div>
+			<script src="Script.js"> </script>
+		</body>
+	</html>
+	
+	
+	
+	
+
+
